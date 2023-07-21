@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const TableSection = () => {
     return (
         <div className="mt-10 bg-white w-11/12 mx-auto rounded-xl px-10 py-10">
-            <h1 className="text-2xl font-bold">Form title</h1>
+            <h1 className="text-2xl font-bold">Available Services</h1>
             <p>Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue enim</p>
             <div className="mt-3 flex items-center text-red-800 bg-red-50 rounded py-3 px-4 border border-red-400">
                 <PiWarningCircleBold className="text-2xl"></PiWarningCircleBold>
