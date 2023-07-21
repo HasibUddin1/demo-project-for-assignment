@@ -27,63 +27,90 @@ const TableSection = () => {
                             <th>Etiam purus in</th>
                             <td>Curabitur donec duis</td>
                             <td>Morbi pharetra, accumsan</td>
-                            <td>Blue</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 2 */}
                         <tr>
                             <th>Duis eget habitant</th>
                             <td>At amet odio</td>
                             <td>Commando eget scelerisque</td>
-                            <td>Purple</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 3 */}
                         <tr>
                             <th>Aliquam velit lacus</th>
                             <td>Pellentesque egestas placerat</td>
                             <td>Tortor habitant sit</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 4 */}
                         <tr>
                             <th>Fermentum scelerisque ultricies</th>
                             <td>Morbi sagittis nulla</td>
                             <td>Quam semper quis</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 5 */}
                         <tr>
                             <th>Integar semper pellentesque</th>
                             <td>Neque turpis enim</td>
                             <td>Egestas non sociis</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 6 */}
                         <tr>
                             <th>Parturient at id</th>
                             <td>Sem neque, mattis</td>
                             <td>Pellentesque facilisis</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 7 */}
                         <tr>
                             <th>Amet, pertium eget</th>
                             <td>In ipsum, volutpat</td>
                             <td>Ut feugiat egestas</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 8 */}
                         <tr>
                             <th>Risus consequat sollicitudin</th>
                             <td>Adispiscing odio nulla</td>
                             <td>Pharetra id sit</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                         {/* row 9 */}
                         <tr>
                             <th>Risus consequat sollicitudin</th>
                             <td>Adispiscing odio nulla</td>
                             <td>Pharetra id sit</td>
-                            <td>Red</td>
+                            <td className="flex gap-3">
+                                <button className="bg-blue-700 px-3 py-1 text-white rounded hover:bg-blue-900 ease-in-out duration-200">Edit</button>
+                                <button className="bg-amber-600 px-3 py-1 text-white rounded hover:bg-amber-800 ease-in-out duration-200">Delete</button>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
