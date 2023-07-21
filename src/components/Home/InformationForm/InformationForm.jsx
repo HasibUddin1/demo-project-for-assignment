@@ -19,12 +19,12 @@ const InformationForm = () => {
                             <option value="chennai">Chennai</option>
                         </select>
                     </div>
-                    <div className="mt-5 flex gap-5">
-                        <div className="w-1/2">
+                    <div className="mt-5 md:flex gap-5">
+                        <div className="md:w-1/2">
                             <label htmlFor="streetAddress1">Street Address 1</label>
                             <input className="block border-2 px-2 py-1 rounded w-full" type="text" name="" id="streetAddress1" placeholder="Street Address 1" />
                         </div>
-                        <div className="w-1/2">
+                        <div className="md:w-1/2 mt-5 md:mt-0">
                             <label htmlFor="streetAddress2">Street Address 2</label>
                             <input className="block border-2 px-2 py-1 rounded w-full" type="text" name="" id="streetAddress2" placeholder="Street Address 2" />
                         </div>

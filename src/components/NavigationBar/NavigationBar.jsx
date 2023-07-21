@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaArrowDown } from "react-icons/fa";
+import { FaArrowDown, FaPlus } from "react-icons/fa";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
 
@@ -32,9 +32,12 @@ const NavigationBar = () => {
     }
 
     return (
-        <div className="bg-gray-800 h-screen sticky top-0 overflow-y-auto text-white font-bold text-xl flex flex-col py-10">
+        <div className="bg-gray-800 md:h-screen sticky top-0 overflow-y-auto text-white font-bold text-xl flex flex-col py-10">
             <div className="relative">
-                <Link className="border-b-2 border-gray-600 flex items-center justify-between px-20" onClick={toggleDropdown}>Dashboard <FaArrowDown></FaArrowDown></Link>
+                <div className="flex justify-center">
+                    <button className="bg-neutral-200 hover:bg-neutral-400 ease-in-out duration-200 px-6 py-2 rounded-md flex items-center text-black"><FaPlus></FaPlus> New Item</button>
+                </div>
+                <Link className="border-b-2 border-gray-600 flex items-center justify-between px-20 mt-3" onClick={toggleDropdown}>Dashboard <FaArrowDown></FaArrowDown></Link>
                 {isDropdownOpen && (
                     <div className="mt-2 text-white rounded py-2 mx-24 px-4 flex flex-col gap-4 w-36">
                         {/* Dropdown Content */}
