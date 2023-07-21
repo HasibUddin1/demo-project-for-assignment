@@ -9,11 +9,11 @@ const Main = () => {
             <div>
                 <Header></Header>
             </div>
-            <div className="md:flex">
-                <div className="md:w-1/6">
+            <div className="xl:flex">
+                <div className="xl:w-1/6">
                     <NavigationBar></NavigationBar>
                 </div>
-                <div className="md:w-5/6">
+                <div className="xl:w-5/6">
                     <Outlet></Outlet>
                 </div>
             </div>

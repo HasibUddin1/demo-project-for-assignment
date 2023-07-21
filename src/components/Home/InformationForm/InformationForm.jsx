@@ -2,8 +2,8 @@
 
 const InformationForm = () => {
     return (
-        <div className="mt-10 w-11/12 mx-auto md:flex gap-10 pb-10">
-            <div className="md:w-4/6 bg-white rounded-xl px-10 py-10">
+        <div className="mt-10 w-11/12 mx-auto xl:flex gap-10 pb-10">
+            <div className="xl:w-4/6 bg-white rounded-xl px-10 py-10">
                 <h1 className="text-2xl font-bold">Your Information</h1>
                 <p>Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue enim</p>
                 <form className="mt-5">
@@ -19,12 +19,12 @@ const InformationForm = () => {
                             <option value="chennai">Chennai</option>
                         </select>
                     </div>
-                    <div className="mt-5 md:flex gap-5">
-                        <div className="md:w-1/2">
+                    <div className="mt-5 xl:flex gap-5">
+                        <div className="xl:w-1/2">
                             <label htmlFor="streetAddress1">Street Address 1</label>
                             <input className="block border-2 px-2 py-1 rounded w-full" type="text" name="" id="streetAddress1" placeholder="Street Address 1" />
                         </div>
-                        <div className="md:w-1/2 mt-5 md:mt-0">
+                        <div className="xl:w-1/2 mt-5 xl:mt-0">
                             <label htmlFor="streetAddress2">Street Address 2</label>
                             <input className="block border-2 px-2 py-1 rounded w-full" type="text" name="" id="streetAddress2" placeholder="Street Address 2" />
                         </div>
@@ -35,7 +35,7 @@ const InformationForm = () => {
                     </div>
                 </form>
             </div>
-            <div className="md:w-2/6 bg-white rounded-xl px-10 py-10 mt-5 md:mt-0">
+            <div className="xl:w-2/6 bg-white rounded-xl px-10 py-10 mt-5 xl:mt-0">
                 <h1 className="text-2xl font-bold">Contact Information</h1>
                 <form className="mt-5">
                     <div>

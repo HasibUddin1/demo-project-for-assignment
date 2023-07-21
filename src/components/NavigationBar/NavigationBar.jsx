@@ -32,7 +32,7 @@ const NavigationBar = () => {
     }
 
     return (
-        <div className="bg-gray-800 md:h-screen sticky top-0 overflow-y-auto text-white font-bold text-xl flex flex-col py-10">
+        <div className="bg-gray-800 xl:h-screen sticky top-0 overflow-y-auto text-white font-bold text-xl flex flex-col py-10">
             <div className="relative">
                 <div className="flex justify-center">
                     <button className="bg-neutral-200 hover:bg-neutral-400 ease-in-out duration-200 px-6 py-2 rounded-md flex items-center text-black"><FaPlus></FaPlus> New Item</button>
