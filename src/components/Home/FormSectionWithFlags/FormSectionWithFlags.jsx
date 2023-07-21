@@ -16,7 +16,7 @@ const FormSectionWithFlags = () => {
                     <label htmlFor="name">Name</label>
                     <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="name" id="name" placeholder='Your Name' />
                 </div>
-                <div className='mt-3 flex gap-5'>
+                <div className='mt-5 flex gap-5'>
                     <div className='w-1/3'>
                         <label htmlFor="select">Category</label>
                         <select className='block border-2 px-2 py-1 rounded w-full' name="" id="select">
@@ -34,7 +34,7 @@ const FormSectionWithFlags = () => {
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredSeat" placeholder='Your Desired Place' />
                     </div>
                 </div>
-                <div className='flex gap-5 mt-3'>
+                <div className='flex gap-5 mt-5'>
                     <div className='w-1/2'>
                         <label htmlFor="desiredCompartment">Desired Compartment</label>
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredCompartment" placeholder='Your Desired Compartment' />
@@ -44,7 +44,7 @@ const FormSectionWithFlags = () => {
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredFlight" placeholder='Your Desired Flight' />
                     </div>
                 </div>
-                <div className='mt-3'>
+                <div className='mt-5'>
                     <label htmlFor="flightDescription">Flight Description</label>
                     <textarea className='block border-2 w-full px-2 py-1 rounded' name="" id="flightDescription" cols="30" rows="7" placeholder='Flight Description'></textarea>
                 </div>
