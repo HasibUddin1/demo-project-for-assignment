@@ -15,10 +15,10 @@ const TableSection = () => {
                     {/* head */}
                     <thead>
                         <tr>
-                            <th className="bg-gray-300 font-bold text-xl text-black rounded-ss-lg">Table Title</th>
-                            <th className="bg-gray-300 font-bold text-xl text-black">Table Title</th>
-                            <th className="bg-gray-300 font-bold text-xl text-black">Table Title</th>
-                            <th className="bg-gray-300 font-bold text-xl text-black rounded-se-lg">Table Title</th>
+                            <th className="bg-gray-300 font-bold text-xl text-black rounded-ss-lg">Name</th>
+                            <th className="bg-gray-300 font-bold text-xl text-black">Description</th>
+                            <th className="bg-gray-300 font-bold text-xl text-black">Notes</th>
+                            <th className="bg-gray-300 font-bold text-xl text-black rounded-se-lg">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
