@@ -16,8 +16,8 @@ const FormSectionWithFlags = () => {
                     <label htmlFor="name">Name</label>
                     <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="name" id="name" placeholder='Your Name' />
                 </div>
-                <div className='mt-5 flex gap-5'>
-                    <div className='w-1/3'>
+                <div className='mt-5 md:flex gap-5'>
+                    <div className='md:w-1/3 mt-5 md:mt-0'>
                         <label htmlFor="select">Category</label>
                         <select className='block border-2 px-2 py-1 rounded w-full' name="" id="select">
                             <option value="england">England</option>
@@ -25,21 +25,21 @@ const FormSectionWithFlags = () => {
                             <option value="america">America</option>
                         </select>
                     </div>
-                    <div className='w-1/3'>
+                    <div className='md:w-1/3 mt-5 md:mt-0'>
                         <label htmlFor="preference">Preference</label>
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="preference" placeholder='Your Desired Place' />
                     </div>
-                    <div className='w-1/3'>
+                    <div className='md:w-1/3 mt-5 md:mt-0'>
                         <label htmlFor="desiredSeat">Desired Seat</label>
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredSeat" placeholder='Your Desired Place' />
                     </div>
                 </div>
-                <div className='flex gap-5 mt-5'>
-                    <div className='w-1/2'>
+                <div className='md:flex gap-5 mt-5'>
+                    <div className='md:w-1/2'>
                         <label htmlFor="desiredCompartment">Desired Compartment</label>
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredCompartment" placeholder='Your Desired Compartment' />
                     </div>
-                    <div className='w-1/2'>
+                    <div className='md:w-1/2 mt-5 md:mt-0'>
                         <label htmlFor="desiredFlight">Desired Flight</label>
                         <input className='block border-2 px-2 py-1 rounded w-full' type="text" name="" id="desiredFlight" placeholder='Your Desired Flight' />
                     </div>
