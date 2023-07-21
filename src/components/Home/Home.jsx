@@ -1,4 +1,5 @@
 import AddNewPost from "./AddNewPost/AddNewPost";
+import FormSectionWithFlags from "./FormSectionWithFlags/FormSectionWithFlags";
 import Stats from "./Stats/Stats";
 import TableSection from "./TableSection/TableSection";
 
@@ -9,6 +10,7 @@ const Home = () => {
             <AddNewPost></AddNewPost>
             <Stats></Stats>
             <TableSection></TableSection>
+            <FormSectionWithFlags></FormSectionWithFlags>
         </div>
     );
 };
